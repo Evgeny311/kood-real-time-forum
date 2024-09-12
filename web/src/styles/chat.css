@@ -1,0 +1,123 @@
+.messenger {
+  width: 340px;
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  z-index: 1000;
+  border-radius: 15px 15px 0 0;
+  background-color: #f2e9e4;
+  color: #3d405b; 
+  border: 1px solid rgba(100, 100, 100, 0.4); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+  padding: 8px; 
+  background-color: #e8d4d4; 
+}
+
+.chat-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  padding: 2px;
+  cursor: pointer;
+}
+
+.chat-header img:first-child {
+  margin-right: 12px;
+}
+
+.chat-header p {
+  font-size: 16px; 
+  color: #3d405b; 
+}
+
+.chat-header img:hover {
+  background-color: #dac2c2; 
+}
+
+.user-chat-info {
+  display: flex;
+}
+
+.chat-body {
+  font-size: 14px;
+  padding: 10px; 
+  height: 320px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefefe; 
+  border-radius: 0 0 15px 15px; 
+}
+
+.chat-body::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-footer form {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  border: none;
+  background-color: #e8d4d4; 
+}
+
+.chat-footer form input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px; 
+  background-color: #fff; 
+  border: 1px solid rgba(100, 100, 100, 0.4); 
+  color: #3d405b;
+}
+
+.chat-footer form .form-img-submit {
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  margin-left: 10px;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+.chat-footer img:hover {
+  background-color: #dac2c2; 
+}
+
+.msg {
+  display: flex;
+  border-radius: 15px; 
+  width: 100%;
+  margin-bottom: 8px; 
+  font-size: 15px;
+}
+
+.right {
+  padding: 10px 14px;
+  max-width: 250px;
+  border-radius: 20px; 
+  background-color: var(--primary-color);
+  margin-left: auto;
+  height: auto;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  color: #fff; 
+}
+
+.left {
+  padding: 10px 14px;
+  max-width: 250px;
+  border-radius: 20px; 
+  background-color: #fff; 
+  color: #3d405b; 
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+}
