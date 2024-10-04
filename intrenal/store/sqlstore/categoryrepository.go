@@ -3,7 +3,7 @@ package sqlstore
 import (
 	"database/sql"
 	"fmt"
-	"forum/internal/models"
+	"kood-real-time-forum/internal/models"
 	"strings"
 
 	"github.com/google/uuid"

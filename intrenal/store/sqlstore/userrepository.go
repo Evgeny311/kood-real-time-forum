@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"forum/internal/models"
+	"kood-real-time-forum/internal/models"
 
 	"github.com/google/uuid"
 )

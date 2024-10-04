@@ -3,7 +3,7 @@ package store
 import (
 	"time"
 
-	"forum/internal/models"
+	"kood-real-time-forum/internal/models"
 )
 
 type ChatRepository interface {

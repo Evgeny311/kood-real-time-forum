@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"forum/internal/store"
-	"forum/pkg/jwttoken"
-	"forum/pkg/router"
-	"forum/pkg/websocket"
+	"kood-real-time-forum/internal/store"
+	"kood-real-time-forum/pkg/jwttoken"
+	"kood-real-time-forum/pkg/router"
+	"kood-real-time-forum/pkg/websocket"
 )
 
 const (

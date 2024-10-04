@@ -3,7 +3,7 @@ package teststore
 import (
 	"errors"
 
-	"forum/internal/models"
+	"kood-real-time-forum/internal/models"
 )
 
 type UserRepository struct {

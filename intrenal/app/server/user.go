@@ -3,9 +3,9 @@ package server
 import (
 	"encoding/json"
 	"errors"
-	"forum/internal/models"
-	"forum/pkg/jwttoken"
-	"forum/pkg/router"
+	"kood-real-time-forum/internal/models"
+	"kood-real-time-forum/pkg/jwttoken"
+	"kood-real-time-forum/pkg/router"
 	"net/http"
 	"os"
 	"time"

@@ -2,8 +2,8 @@ package server
 
 import (
 	"encoding/json"
-	"forum/internal/models"
-	"forum/pkg/router"
+	"kood-real-time-forum/internal/models"
+	"kood-real-time-forum/pkg/router"
 	"net/http"
 )
 

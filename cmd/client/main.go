@@ -24,8 +24,8 @@ func main() {
 	})
 
 	port := "3000"
-	log.Println("The server running on port %v", port)
+	log.Printf("The client server is running on the port %v", port)
 	if err = http.ListenAndServe(":"+port, nil); err != nil {
-		log.Fatal(err)
+		log.Fatalln(err)
 	}
 }

@@ -1,8 +1,8 @@
 package teststore
 
 import (
-	"forum/internal/models"
-	"forum/internal/store"
+	"kood-real-time-forum/internal/models"
+	"kood-real-time-forum/internal/store"
 )
 
 type Store struct {

@@ -29,7 +29,7 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"encoding/json"
-	"forum/pkg/errors"
+	"kood-real-time-forum/pkg/errors"
 	"hash"
 	"strings"
 	"time"

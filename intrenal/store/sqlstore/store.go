@@ -3,7 +3,7 @@ package sqlstore
 import (
 	"database/sql"
 
-	"forum/internal/store"
+	"kood-real-time-forum/internal/store"
 
 	_ "github.com/mattn/go-sqlite3"
 )

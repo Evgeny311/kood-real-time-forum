@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"forum/internal/models"
-	"forum/pkg/router"
+	"kood-real-time-forum/internal/models"
+	"kood-real-time-forum/pkg/router"
 )
 
 func (s *server) handlePostCreation() http.HandlerFunc {

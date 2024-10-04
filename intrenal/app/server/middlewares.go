@@ -2,7 +2,7 @@ package server
 
 import (
 	"context"
-	"forum/pkg/jwttoken"
+	"kood-real-time-forum/pkg/jwttoken"
 	"net/http"
 	"os"
 	"time"
