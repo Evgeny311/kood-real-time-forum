@@ -20,7 +20,7 @@ Real-Time Forum is a forum that allows users to communicate with each other in r
 - **Clone the repository:**
 
 ```bash
-git https://01.kood.tech/git/eandreyc/real-time-forum.git
+git clone https://github.com/Evgeny311/kood-real-time-forum
 cd real-time-forum
 ```
 
