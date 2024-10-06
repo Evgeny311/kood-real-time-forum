@@ -2,6 +2,11 @@
 
 # Real-Time Forum
 
+!!! Due to its large size, the project is hosted on GitHub!!!
+
+git clone https://github.com/Evgeny311/kood-real-time-forum
+cd kood-real-time-forum
+
 ## Introduction
 
 Real-Time Forum is a forum that allows users to communicate with each other in real time by creating posts, comments to them and personal messages. This project is a single-page application (SPA) uses the languages ​​Golang, JavaScript, HTML, CSS, as well as WebSockets and SQLite technologies
